@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'cordia';
+    src: url('cordiau.eot');
+    src: url('cordiau.eot') format('embedded-opentype'),
+         url('cordiau.woff2') format('woff2'),
+         url('cordiau.woff') format('woff'),
+         url('cordiau.ttf') format('truetype'),
+         url('cordiau.svg#cordiau') format('svg');
+}

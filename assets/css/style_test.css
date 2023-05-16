@@ -1,0 +1,265 @@
+body{
+    padding-top: 0px;
+}
+
+.btn-primary-ookbeemall,.btn-primary-ookbeemall:hover,.btn-primary-ookbeemall:focus,.btn-primary-ookbeemall:active{
+    color: #fff;
+    background-color: #cc0033;
+    border-color: #cc0033;
+}
+.btn-icon-cart{
+    padding: 4px 12px;
+    font-size: 26px;
+    line-height: auto;
+    line-height: 1em;
+}
+.txt-price{
+    width:76%;
+    text-align: left;
+    font-size: 22px;
+    color: #cc0033;
+    font-weight: bold;
+    display: inline-block;
+}
+.items-product{
+    margin-top: 30px;
+}
+.hero-spacer{
+    margin-top: 0px;
+}
+.hero-feature{
+    margin-bottom: 15px;
+}
+.sub-banner{
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.full-banner{
+    height:350px;
+}
+footer {
+    margin: 30px 0px 15px 0px;
+    border-top: 1px solid #ededed;
+    padding: 30px 0px;
+}
+.address i, .phone i, .mail i{
+    color: #cc0033;
+    font-size: 20px;
+    margin-right: 5px;
+}
+ul.footer-static-content{
+    padding-left: 5px;
+    list-style: none;
+}
+ul.footer-static-content li a, ul.footer-static-content li a:hover{
+    color: #333;
+}
+.phone i{
+    font-size: 26px;
+}
+.banner-left{
+    display: block;
+}
+
+.txt-offers-more{
+    font-weight: bold;
+    font-size: 18px;
+}
+a.more-product{
+    color: #222;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+a.more-product:hover{
+    color:#cc0033;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.title-box{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    /* text-align: center;*/
+    margin-top: 30px;
+    position: relative;
+}
+.txt-title{
+    background: #FFF;
+    color: #222;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -10px;
+    margin-top: 0px;
+    display: inline-block;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+.border-title{
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    background: #333333;
+    /*  margin-top: -15px;*/
+    float: left;
+}
+
+.txt-customer-service{
+    width: 360px;
+    height: auto;
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    float: left;
+}
+.txt-customer-service span{
+    color: #cc0033;
+}
+.footer-icon{
+    display:inline-block;
+    width: 35px;
+    height: 35px;
+    background: #ccc;
+    margin-right: 10px;
+    float: left;
+}
+.customer-service-box{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.margin-top-40{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img-full-width{
+    width: 100%;
+}
+.icon-phone{
+    background: none;
+    color: #cc0033;
+    font-size: 40px;
+    margin-top: -12px;
+}
+.icon-facebook{
+    background: none;
+    color: #3a5795;
+    font-size: 40px;
+    margin-top: -12px;
+}
+.footer-icon.icon-line{
+    background: url(../images/icon-line.png) center no-repeat;
+    background-size: 47px;
+}
+.items-product,
+.hero-feature{
+    margin-top: 15px;
+}
+
+.thumbnail a img.items-product{
+    margin-top:0px;
+}
+.hero-feature.products{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.hero-feature.banner-left{
+    margin-top: 0px;
+}
+.sub-banner{
+    margin-top: 15px;
+}
+.header-logo-top{
+    padding: 10px 0px;
+    display: inline-block;
+}
+
+.banner_top_mobile{
+    display: none;
+}
+
+
+
+
+@media all and (max-width: 980px){
+    .col-sm-4{
+        width: 49%;
+        display: inline-block;
+    }
+    .banner-left{
+        display: none;
+    }
+    .banner_top{
+        display:none;
+    }
+    .banner_top_mobile{
+        display: block;
+    }
+    .logo-ookbeemall {
+        max-width: 260px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    @media all and (max-width: 900px){
+        .col-sm-4{
+            width: 49%;
+            display: inline-block;
+        }
+        .banner-left{
+            display: none;
+        }
+        .banner_top{
+            display:none;
+        }
+        .banner_top_mobile{
+            display: block;
+        }
+        .logo-ookbeemall {
+            max-width: 260px;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+
+        @media all and (max-width: 600px){
+            .col-sm-4{
+                width: 50%;
+            }
+            .banner_top{
+                display:none;
+            }
+            .banner_top_mobile{
+                display: block;
+            }
+            .logo-ookbeemall {
+                max-width: 260px;
+                margin: auto;
+                margin-bottom: 10px;
+            }
+
+
+            @media all and (max-width: 500px){
+                .col-sm-4{
+                    width: 50%;
+                }
+                .banner_top{
+                    display:none;
+                }
+                .banner_top_mobile{
+                    display: block;
+                }
+                .logo-ookbeemall {
+                    max-width: 260px;
+                    margin: auto;
+                    margin-bottom: 10px;
+                }
+
+
+
+

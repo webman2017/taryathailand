@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'thaisansneueregularwebfont';
+    src: url('thaisansneueregularwebfont.eot');
+    src: url('thaisansneueregularwebfont.eot') format('embedded-opentype'),
+         url('thaisansneueregularwebfont.woff2') format('woff2'),
+         url('thaisansneueregularwebfont.woff') format('woff'),
+         url('thaisansneueregularwebfont.ttf') format('truetype'),
+         url('thaisansneueregularwebfont.svg#thaisansneueregularwebfont') format('svg');
+}
